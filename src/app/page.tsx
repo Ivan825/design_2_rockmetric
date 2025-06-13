@@ -524,7 +524,7 @@ export default function Home() {
                     <Star key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" />
                   ))}
                 </div>
-                <p className="text-gray-300 mb-6 leading-relaxed">"{testimonial.text}"</p>
+                <p className="text-gray-300 mb-6 leading-relaxed">{testimonial.text}</p>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                     <Users className="w-6 h-6 text-gray-400" />
